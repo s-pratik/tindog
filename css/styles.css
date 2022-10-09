@@ -1,0 +1,168 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+
+}
+
+/* section */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* title section */
+
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.title-h1 {
+    font-family: "Montserrat-Black";
+    font-size: 4.2rem;
+    line-height: 1.5;
+}
+
+.title-img {
+    transform: rotate(25deg);
+    position: absolute;
+    width: 23%;
+    right: 22%;
+}
+
+
+/* navigation bar */
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* features section */
+
+.feat-icon {
+    color: #ef8172;
+    margin-bottom: 5%;
+}
+
+.feat-icon:hover {
+    color: #ff4c68;
+}
+
+#features {
+    position: relative;
+    z-index: 1;
+
+
+}
+
+.features-h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+}
+
+/* testimonial section */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press section */
+
+#press {
+    background-color: #ef8172;
+    padding: 3%;
+}
+
+.press-image {
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+/* pricing section */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.card-header {
+    background-color: gray;
+}
+
+@media (max-width : 991px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+
+    }
+}
+
+/* footer section */
+
+
+.foot-icon {
+    margin: 20px 10px;
+
+}
